@@ -4,7 +4,17 @@
   overflow: hidden;
 }
 
-.aa-wrapper .home {
+.aa-wrapper h1 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.aa-wrapper a {
+  text-decoration: none;
+}
+
+.aa-wrapper a .home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,21 +27,23 @@
   margin-bottom: 12px;
 }
 
-.aa-wrapper .home h3 {
+.aa-wrapper a .home h3 {
   font-size: 32px;
   margin: 0;
   margin-left: 6px;
   font-weight: 700;
 }
 
-.aa-wrapper h1 {
-  font-size: 14px;
+.aa-wrapper .notFound {
+  position: absolute;
   margin: 0;
-  font-weight: 500;
-}
-
-.aa-wrapper a {
-  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 160px;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
 }
 
 .aa-container {
@@ -39,5 +51,6 @@
   height: 85vh;
   width: 100%;
   overflow-y: scroll;
+  position: relative;
 }
 /*# sourceMappingURL=AllActivity.css.map */

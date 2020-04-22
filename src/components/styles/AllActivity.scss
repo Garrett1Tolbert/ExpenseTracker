@@ -2,18 +2,6 @@
     width: 80%;
     margin-top: 50px;
     overflow: hidden;
-    & .home {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 12px;
-        h3 {
-            font-size: 32px;
-            margin: 0;
-            margin-left: 6px;
-            font-weight: 700;
-        }
-    }
     h1 {
         font-size: 14px;
         margin: 0;
@@ -21,6 +9,29 @@
     }
     a {
         text-decoration: none;
+        & .home {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 12px;
+            h3 {
+                font-size: 32px;
+                margin: 0;
+                margin-left: 6px;
+                font-weight: 700;
+            }
+        }
+    }
+    & .notFound {
+        position: absolute;
+        margin: 0;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 160px;
+        bottom: 10%;
+        left: 0;
+        width: 100%;
     }
 }
 
@@ -29,4 +40,5 @@
     height: 85vh;
     width: 100%;
     overflow-y: scroll;
+    position: relative;
 }
