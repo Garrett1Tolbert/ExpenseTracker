@@ -1,0 +1,32 @@
+.aa-wrapper {
+    width: 80%;
+    margin-top: 50px;
+    overflow: hidden;
+    & .home {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 12px;
+        h3 {
+            font-size: 32px;
+            margin: 0;
+            margin-left: 6px;
+            font-weight: 700;
+        }
+    }
+    h1 {
+        font-size: 14px;
+        margin: 0;
+        font-weight: 500;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.aa-container {
+    padding-top: 16px;
+    height: 85vh;
+    width: 100%;
+    overflow-y: scroll;
+}

@@ -1,0 +1,92 @@
+.nt-wrapper {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.nt-wrapper h1 {
+  font-size: 14px;
+  margin: 0;
+  color: #525456;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.nt-wrapper input {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.nt-wrapper input::-webkit-input-placeholder {
+  color: #777;
+}
+
+.nt-wrapper input:-ms-input-placeholder {
+  color: #777;
+}
+
+.nt-wrapper input::-ms-input-placeholder {
+  color: #777;
+}
+
+.nt-wrapper input::placeholder {
+  color: #777;
+}
+
+.nt-wrapper .select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 4px 4px 0 0;
+  padding-left: 6px;
+}
+
+.nt-wrapper .select select {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  color: #777;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.nt-wrapper .select select::-ms-expand {
+  display: none;
+}
+
+.nt-wrapper .select i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #777;
+}
+
+.nt-wrapper button {
+  width: 100%;
+  margin: 25px 0;
+  border-radius: 6px;
+  background-color: cadetblue;
+  opacity: 0.6;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=NewTransaction.css.map */

@@ -1,0 +1,44 @@
+.gl-wrapper {
+  width: 80%;
+  padding: 12px 16px;
+  border: 1px solid #eeeeee;
+  margin-top: 50px;
+  border-radius: 6px;
+  max-width: 290px;
+}
+
+.gl-wrapper .gl-ec,
+.gl-wrapper .gl-ic {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.gl-wrapper .gl-ec h1,
+.gl-wrapper .gl-ic h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.gl-wrapper .gl-ec p,
+.gl-wrapper .gl-ic p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.gl-wrapper .gl-ic {
+  margin: 5px 0 0 0;
+}
+/*# sourceMappingURL=Glimpse.css.map */

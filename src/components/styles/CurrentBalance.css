@@ -1,0 +1,30 @@
+.cb-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.cb-wrapper h1 {
+  margin: 12px 0 0 0;
+  font-size: 32px;
+  color: #777;
+  font-weight: 500;
+}
+
+.cb-wrapper h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=CurrentBalance.css.map */
