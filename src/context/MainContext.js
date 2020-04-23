@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from 'react';
 import AppReducer from './appReducer';
 
 const initialState = {
-    transactions: [],
+    transactions: JSON.parse(localStorage.getItem('transactions')),
 };
 
 export const MainContext = createContext(initialState);
