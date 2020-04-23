@@ -51,5 +51,4 @@ function App() {
         </ThemeContextProvider>
     );
 }
-
 export default App;

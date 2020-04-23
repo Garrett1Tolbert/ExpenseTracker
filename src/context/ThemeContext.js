@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 
 const initialState = {
-    isDark: true,
+    isDark: localStorage.getItem('isDark') === 'true',
     lightTheme: {
         bg: '#fff',
         textPrimary: '#525456',
@@ -30,8 +30,10 @@ export const ThemeContext = createContext(initialState);
 
 const ThemeContextProvider = ({ children }) => {
     const [state, setState] = useState(initialState);
+
     const toggleTheme = () => {
         setState({ ...state, isDark: !state.isDark });
+        localStorage.setItem('isDark', !state.isDark);
     };
     return (
         <ThemeContext.Provider value={{ ...state, toggleTheme }}>
