@@ -32,21 +32,21 @@ function App() {
         <ThemeContextProvider>
             <Container>
                 <ThemeIcon />
-                <Router>
-                    <Switch>
-                        <Route path='/activity'>
-                            <AllACtivity />
-                        </Route>
-                        <Route path='/'>
-                            <MainContextProvider>
+                <MainContextProvider>
+                    <Router>
+                        <Switch>
+                            <Route path='/activity'>
+                                <AllACtivity />
+                            </Route>
+                            <Route path='/'>
                                 <Header />
                                 <Glimpse />
                                 <Activity />
                                 <NewTransaction />
-                            </MainContextProvider>
-                        </Route>
-                    </Switch>
-                </Router>
+                            </Route>
+                        </Switch>
+                    </Router>
+                </MainContextProvider>
             </Container>
         </ThemeContextProvider>
     );
